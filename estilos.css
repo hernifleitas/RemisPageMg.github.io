@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+    padding: 0;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color:#c9e6f7;
+    padding: 8px;
+    border:0;
+    border-radius: 3px;
+    width: 100%;
+}
+header nav {   
+    font-size: 20px;
+    padding: 10px;
+    background-color: #c9e6f7;
+    border-radius: 3px; 
+    width: 100%;   
+}
+header nav .container {
+    display: flex;
+    justify-content:space-evenly;
+}
+header nav a{
+    text-decoration: none; 
+    border-radius: 15px;
+    border: 4px solid #acd8f3;
+    margin-top: 10px;
+    color:red;
+}
+
+
+.logo{
+    position: relative;
+    border-radius: 30%;
+    text-decoration: none;
+    width: 50px;
+    cursor: pointer;  
+}
+.home {
+    background-image:url("ioniq5kvs_4.webp");
+    margin-top: 1px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+}
+
+.homeContainer {
+    display: flex;
+}
+.homeContainer p{
+    font-size: 16px;
+    margin: 4px;
+    padding: 20px;
+    border: 2px solid #fff;
+    background-color: rgba(0, 0, 0, 0.486);
+    color:#fefefe;    
+    margin-bottom: 250px;
+}
+.homeContainer p:hover{
+    background-color: rgba(0, 0, 0, 0.609);
+    color:#fefefe;
+    cursor: pointer;
+    transition: all 1s ease;
+    transform: translateY(-12px);
+}
+.homeButton{
+    text-align: center; 
+    position: absolute;
+    top: 200px;
+    background-color: rgba(0, 0, 0, 0.534);
+    padding: 20px;
+    font-family: cursive;
+}
+.homeButton .span {
+    text-align: center;
+    
+}
+.homeButton .span span {
+   color: #fff;
+   font-family:Georgia, 'Times New Roman', Times, serif ;
+   font-size:56px;
+}
+.homeButton button{
+    padding: 7px;
+    width: 500px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;background: linear-gradient(180deg, rgba(17, 247, 197, 0.767) 0%, rgba(19, 194, 165, 0.883) 100%);
+}
+    
+.homeContainer .card {
+    display: flex;
+
+}
+/**
+ABOUT US :D 
+###########################################################################
+**/
+
+#nosotros {
+    background-color: #252525;
+    color: white;
+}
+
+
+.about .flex-container {
+display: flex;
+background-color:gray;
+width: 100%;
+justify-content: center;
+
+}
+
+.about .flex-container .cardOne{
+align-items: center;
+justify-content: center;
+text-align: center;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
